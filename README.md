@@ -6,11 +6,11 @@ Safari 的扩展
 
 或者
 
-'''
+```
 
 alt+s
 
-'''
+```
 
 
 #### Search Engine Switcher
