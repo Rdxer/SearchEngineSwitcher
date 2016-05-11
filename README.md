@@ -1,17 +1,18 @@
 #### 搜索引擎切换工具
 
-Safari 的扩展
+Safari 扩展
 
-点击图标能够切换 
+点击摁钮能够切换 
 
-或者
-
-```
-
-alt+s
+或者快捷键
 
 ```
+option+s
+```
 
+
+
+感谢原作者:[@RayPS](https://github.com/RayPS)
 
 #### Search Engine Switcher
 
