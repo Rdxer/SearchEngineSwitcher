@@ -13,3 +13,16 @@ function switchSearchEngine (Event) {
         location.href = "https://www.google.com/search?client=safari&rls=en&ie=UTF-8&oe=UTF-8&q=" + keyword
     }
 }
+
+
+function hotkey()
+{
+    var a=window.event.keyCode;
+    if((a==83)&&(event.altKey) || (a==115)&&(event.altKey) )
+    {
+//        alert("你按了alt+s键吧");
+        switchSearchEngine(1);
+    }
+}// end hotkey
+
+document.onkeydown = hotkey; //当onkeydown 事件发生时调用hotkey函数

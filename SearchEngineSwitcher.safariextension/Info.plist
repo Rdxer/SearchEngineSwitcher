@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>RayPS</string>
+	<string>Rdxer</string>
 	<key>Builder Version</key>
 	<string>11601.5.17.1</string>
 	<key>CFBundleDisplayName</key>
-	<string>Search Engine Switcher</string>
+	<string>切换搜索引擎</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.rayps.searchengineswitcher</string>
+	<string>com.rayps.searchengineswitcher.ex.Rdxer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -28,14 +28,18 @@
 				<key>Image</key>
 				<string>toolbar-icon.png</string>
 				<key>Label</key>
-				<string>Switch Search Engine</string>
+				<string>切换搜索引擎</string>
 				<key>Palette Label</key>
-				<string>Search Engine Switcher</string>
+				<string>切换搜索引擎</string>
 				<key>Tool Tip</key>
-				<string>Search Engine Switcher</string>
+				<string>切换搜索引擎</string>
 			</dict>
 		</array>
 	</dict>
+	<key>Companion Bundle Identifier</key>
+	<array>
+		<string>com.rayps.searchengineswitcher.ex.Rdxer</string>
+	</array>
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
@@ -47,7 +51,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Switch search engine between Google and Baidu with one click.</string>
+	<string>点击切换 百度/Google,或者 alt+s</string>
 	<key>DeveloperIdentifier</key>
 	<string>Y4R64EEFRV</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -71,9 +75,7 @@
 			<string>Some</string>
 		</dict>
 	</dict>
-	<key>Update Manifest URL</key>
-	<string>http://rayps.qiniudn.com/Safari_Extension_Update.plist</string>
 	<key>Website</key>
-	<string>http://lab.rayps.com/ses/</string>
+	<string>https://github.com/Rdxer</string>
 </dict>
 </plist>
